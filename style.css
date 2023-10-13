@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.eventos{
+    font-size: 17px;
+    font-family: "Nunito";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 60px;
+    height: 23px;
+    margin-top: -3rem;
+    margin-left: 119px;
+}
+
+.produtos{
+    font-size: 17px;
+    font-family: "Nunito";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 95px;
+    height: 27px;
+    margin-top:-24px;
+    margin-left: 200px;
+}
+
+.cart{
+    float: right;
+    margin-top: -3em;
+    margin-right: 73rem;
+}
+.head_logo{
+    margin-top: -3rem;
+    padding-left: 350px;
+}
+
+.saiba_mais {
+    position: relative;
+    font-size: 20px;
+    font-family: "Nunito";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 197px;
+    height: 34px;
+    background: #FFAF36;
+    text-align: center;
+    border-radius: 85px;
+    top: -20px; /* Adjust this value to move the button up or down */
+    margin-left: 106px;
+    z-index: 1;
+}
+
+.saiba_mais p{
+    text-align: center;
+    border-radius: 85px;
+    margin-top: -105px;
+    margin-left: -5px;
+    background: #FFAF36;
+    padding-top: 7px;   
+}
+
+.background_saiba_mais{
+    width: 197px;
+    height: 34px;
+}
+
+.social_media img{
+    margin-top: 50px;
+    padding-left: 80px;
+}
+
+.social_media{
+    width: 58px;
+    height: 48px;
+    display: flex;
+    align-items: center; /* Center content vertically in the footer */
+    justify-content: center; 
+    margin-left: 109px;
+    position: absolute;
+}
+
+footer{
+    width: 393px;
+    height: 28vh;
+    background-color: #000;
+    top:0;
+    bottom: 0;
+    position:relative;
+    text-align: center;
+}
+
+@media(max-width:720px){
+    .cart{
+        float: right;
+        margin-top: -3rem;
+        margin-right: 57px;
+    }
+    
+    .head_logo{
+        float: right;
+        margin-top: -50px;
+      
+    }
+    
+}
