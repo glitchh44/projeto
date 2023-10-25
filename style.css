@@ -1,3 +1,4 @@
+/*index*/
 *{
     margin: 0;
     padding: 0;
@@ -51,7 +52,7 @@
     background: #FFAF36;
     text-align: center;
     border-radius: 85px;
-    top: -20px; /* Adjust this value to move the button up or down */
+    top: -20px; 
     margin-left: 106px;
     z-index: 1;
 }
@@ -79,7 +80,7 @@
     width: 58px;
     height: 48px;
     display: flex;
-    align-items: center; /* Center content vertically in the footer */
+    align-items: center; 
     justify-content: center; 
     margin-left: 109px;
     position: absolute;
@@ -94,7 +95,35 @@ footer{
     position:relative;
     text-align: center;
 }
+/*eventos*/
+.main_content {
+    position: relative; 
+}
 
+.carrousel {
+    width: 37px;
+    height: 102px;
+    border-radius: 80px;
+    background-color: #D9D9D9;
+    display: flex;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    margin-left: 15px;
+    margin-top: 327px;
+}
+
+.carrousel span {
+    display: inline-block;
+    padding: 16px;
+    padding-top: 45px;
+    margin-right: 265px;
+    width: 37px;
+    height: 102px;
+    border-radius: 80px;
+    background-color: #D9D9D9;
+}
+/*css responsivo*/
 @media(max-width:720px){
     .cart{
         float: right;
